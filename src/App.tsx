@@ -2,8 +2,12 @@ import NavBar from "@/Scenes/navbar"
 import { useEffect, useState } from "react"
 import Home from "@/Scenes/Home";
 import { SelectedPage } from "./shared/types"
+import Benefits from "./Scenes/Benefits";
 
 
+
+
+// tsrafce  => create typescript component
 
 
 function App() {
@@ -29,6 +33,7 @@ function App() {
         setSelectedPage={setSelectedPage}
       />
       <Home  setSelectedPage={setSelectedPage} />
+      <Benefits setSelectedPage={setSelectedPage} selectedPage={""} />
     </div>
   )
 }
