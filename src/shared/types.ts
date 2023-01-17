@@ -11,3 +11,9 @@ export interface BenefitType {
   title:string,
   description:string
 }
+
+export interface ClassessType {
+  name:string,
+  description:string,
+  image:string
+}
